@@ -1,0 +1,16 @@
+# Entorno virtual (ocupa mucho espacio y no se sube)
+venv/
+env/
+#pycache# (archivos temporales de Python)
+**/__pycache__/
+*.pyc
+
+# Configuración y Secretos (¡VITAL!)
+.env
+
+# Base de datos (datos privados de clientes)
+*.db
+*.sqlite3
+
+# Logs y archivos temporales
+*.log
